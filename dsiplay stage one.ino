@@ -151,6 +151,10 @@ void displayDynamicInfo(int index) {
   tft.print(" dBm");
 }
 
+
+
+
+
 // the one with smooth display of graph moving but blackout refresh...... 
 #include <MCUFRIEND_kbv.h>
 #include <Adafruit_GFX.h>
@@ -301,6 +305,14 @@ void displayDynamicInfo(int index) {
   tft.print(power, 1);
   tft.print(" dBm");
 }
+
+
+
+
+
+
+
+
 
 // Display which takes input values 
 #include <MCUFRIEND_kbv.h>
