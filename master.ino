@@ -5,12 +5,12 @@
 WiFiClient client;
 void setup() {
   WiFi.begin();
-  Wire.begin(22,21);
+  Wire.begin();
   Serial.begin(115200);
   Wire.beginTransmission(0x48);
   Wire.write(0x01);
-  Wire.write(0x74);
-  Wire.write(0xE1);
+  Wire.write(0x73);
+  Wire.write(0xE3);
   Wire.endTransmission();
   SPI.begin(); 
   pinMode(5, OUTPUT);
