@@ -316,7 +316,7 @@ void displayDynamicInfo(int index) {
 
 // Display which takes input values 
 #include <MCUFRIEND_kbv.h>
-#include <Adafruit_GFX.h>
+#include <Adafruit_GFX.h>4
 
 MCUFRIEND_kbv tft;
 
@@ -328,7 +328,7 @@ MCUFRIEND_kbv tft;
 #define TOP_MARGIN 20
 #define BOTTOM_MARGIN 20
 #define GRAPH_HEIGHT 280 
-#define GRAPH_Y (TOP_MARGIN)
+#define GRAPH_Y (TOP_MARGIN)141
 #define GRAPH_X 20 // Graph shifted 20px to the right
 #define GRAPH_WIDTH 450 // 480 is the total width
 

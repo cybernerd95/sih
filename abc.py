@@ -7,7 +7,7 @@ try:
     
     while True:  # Infinite loop
         # Generate a random number between 1 and 10
-        random_number = random.randint(1, 5)
+        random_number = random.randint(1, 3)
 
         # Print the number to the console
         print(f"Generated number: {random_number}")
@@ -22,4 +22,5 @@ try:
         time.sleep(2)  # 3 seconds delay
 
 except KeyboardInterrupt:
-    print("\nProgram stopped by user.")
+    print("\nProgram stopped by user.")3
+
