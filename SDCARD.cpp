@@ -1,3 +1,17 @@
+/*
+ * Connect the SD card to the following pins:
+ *https://github.com/MAINAKMONDAL98
+ * ESP WROOM 32 | SD CARD
+ *     D5         CS
+ *     D18        SCK
+ *     D23        MOSI
+ *     D19        MISO
+ *     VIN        VCC
+ *     GND        GND
+ */
+
+
+
 #include "FS.h"
 #include "SD.h"
 #include "SPI.h"
